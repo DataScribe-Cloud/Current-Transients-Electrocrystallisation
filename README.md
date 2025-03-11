@@ -31,4 +31,22 @@ This reflects **diffusion-limited growth** of nuclei.
 - **Avrami**: Nucleation + Growth, considers surface coverage evolution.
 - **Evans**: Diffusion-controlled deposition, no explicit nucleation model.
 
-For a deeper dive, refer to the full documentation or related literature.
+## Avrami–Evans–Kolmogorov (AEK) Theorem in Electrocrystallization
+
+The Avrami–Evans–Kolmogorov (AEK) theorem extends the classical Avrami and Kolmogorov phase transformation theories to electrocrystallization by incorporating diffusion effects (Evans’ contribution). This framework is particularly useful for describing the time-dependent nucleation and growth of metal deposits on an electrode surface.
+
+Key aspects of the AEK theorem in electrocrystallization:
+1.	Surface Coverage ( S ): Describes the fraction of the electrode covered by growing nuclei, incorporating nucleation, growth, and diffusion:
+$$
+S = 1 - \exp(-b d(\theta) \Theta(At) t)
+$$
+where:
+•	 b  depends on the nucleation site density ( N_0 ) and diffusion coefficient ( D ),
+•	 d(\theta)  is a shape factor accounting for the effect of contact angle,
+•	 \Theta(At)  accounts for the transient nucleation dynamics.
+2.	Current Density ( I ): The electrochemical current transient follows:
+$$
+I(t) = \frac{a}{t^{1/2}} \left[1 - \exp(-b d(\theta) \Theta(At) t) \right]
+$$
+where:
+•	 a = \frac{n F D^{1/2} c}{\pi^{1/2}}  is a prefactor influenced by the charge transfer rate and ion diffusion properties.
