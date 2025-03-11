@@ -37,9 +37,11 @@ The Avrami–Evans–Kolmogorov (AEK) theorem extends the classical Avrami and K
 
 Key aspects of the AEK theorem in electrocrystallization:
 1.	Surface Coverage ( S ): Describes the fraction of the electrode covered by growing nuclei, incorporating nucleation, growth, and diffusion:
+
 $$
 S = 1 - \exp(-b d(\theta) \Theta(At) t)
 $$
+
 where:
 •	 b  depends on the nucleation site density ( N_0 ) and diffusion coefficient ( D ),
 •	 d(\theta)  is a shape factor accounting for the effect of contact angle,
