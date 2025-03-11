@@ -74,7 +74,6 @@ where:
 - ($\Theta(At)$) represents transient nucleation kinetics,
 - ($a = \frac{n F D^{1/2} c}{\pi^{1/2}}$) is the prefactor controlling mass transport.
 
---- 
 
 ### **Key Features**
 - **Incorporates Diffusion Effects (Evans’ Contribution)**  
@@ -90,3 +89,8 @@ where:
 | **AEK** | Combines all three for electrocrystallization | Yes | Yes |
 
 --- 
+
+Contact Info:
+
+ - Email: attari.v@tamu.edu
+ - Department of Materials Science and Engineering
