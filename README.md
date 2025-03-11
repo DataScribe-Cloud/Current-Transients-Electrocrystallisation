@@ -60,9 +60,8 @@ where $a = \frac{n F D^{1/2} c}{\pi^{1/2}}$ is a prefactor influenced by the cha
 
 # (AEK) Theorem in Electrocrystallization
 
-The **(AEK) theorem** in a nutshell:
+The **(AEK) Key Equations** in a nutshell:
 
-### **Key Equations**
 #### **Surface Coverage**
 $$ S = 1 - \exp(-b d(\theta) \Theta(At) t) $$
 
@@ -70,10 +69,10 @@ $$ S = 1 - \exp(-b d(\theta) \Theta(At) t) $$
 $$ I(t) = \frac{a}{t^{1/2}} \left[1 - \exp(-b d(\theta) \Theta(At) t) \right] $$
 
 where:
-- \( b \) is a parameter influenced by nucleation site density and diffusion coefficient,
-- \( d(\theta) \) is a shape factor that accounts for contact angle effects,
-- \( \Theta(At) \) represents transient nucleation kinetics,
-- \( a = \frac{n F D^{1/2} c}{\pi^{1/2}} \) is the prefactor controlling mass transport.
+- ($b$) is a parameter influenced by nucleation site density and diffusion coefficient,
+- ($d(\theta)$) is a shape factor that accounts for contact angle effects,
+- ($\Theta(At)$) represents transient nucleation kinetics,
+- ($a = \frac{n F D^{1/2} c}{\pi^{1/2}}$) is the prefactor controlling mass transport.
 
 ### **Key Features**
 - **Incorporates Diffusion Effects (Evans’ Contribution)**  
