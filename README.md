@@ -44,9 +44,9 @@ $$
 
 where:
 
-•	 b  depends on the nucleation site density ( $N_0$ ) and diffusion coefficient ( $D$ ),
-•	 $d(\theta)$  is a shape factor accounting for the effect of contact angle,
-•	 $\Theta(At)$  accounts for the transient nucleation dynamics.
+- b  depends on the nucleation site density ( $N_0$ ) and diffusion coefficient ( $D$ ),
+- $d(\theta)$  is a shape factor accounting for the effect of contact angle,
+- $\Theta(At)$  accounts for the transient nucleation dynamics.
 
 2.	Current Density ( I ): The electrochemical current transient follows:
 $$
