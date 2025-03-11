@@ -74,6 +74,8 @@ where:
 - ($\Theta(At)$) represents transient nucleation kinetics,
 - ($a = \frac{n F D^{1/2} c}{\pi^{1/2}}$) is the prefactor controlling mass transport.
 
+--- 
+
 ### **Key Features**
 - **Incorporates Diffusion Effects (Evans’ Contribution)**  
 - **Accounts for Surface Coverage Evolution (Avrami–Kolmogorov)**  
@@ -85,6 +87,6 @@ where:
 | **Kolmogorov** | Random nucleation model | No explicit diffusion | No |
 | **Avrami** | Nucleation + Growth | Includes surface coverage | No |
 | **Evans** | Diffusion-limited deposition | No nucleation model | Yes |
-| **AEK Theorem** | Combines all three for electrocrystallization | Yes | Yes |
+| **AEK** | Combines all three for electrocrystallization | Yes | Yes |
 
-For further details, refer to the full documentation and relevant literature.
+--- 
