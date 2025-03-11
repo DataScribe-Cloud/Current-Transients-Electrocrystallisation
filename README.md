@@ -55,3 +55,37 @@ I(t) = \frac{a}{t^{1/2}} \left[1 - \exp(-b d(\theta) \Theta(At) t) \right]
 $$
 
 where $a = \frac{n F D^{1/2} c}{\pi^{1/2}}$ is a prefactor influenced by the charge transfer rate and ion diffusion properties.
+
+###
+
+# Avrami–Evans–Kolmogorov (AEK) Theorem in Electrocrystallization
+
+The **Avrami–Evans–Kolmogorov (AEK) theorem** extends classical nucleation and growth models to **electrocrystallization**, incorporating **diffusion limitations**.
+
+### **Key Equations**
+#### **Surface Coverage**
+$$ S = 1 - \exp(-b d(\theta) \Theta(At) t) $$
+
+#### **Current Density**
+$$ I(t) = \frac{a}{t^{1/2}} \left[1 - \exp(-b d(\theta) \Theta(At) t) \right] $$
+
+where:
+- \( b \) is a parameter influenced by nucleation site density and diffusion coefficient,
+- \( d(\theta) \) is a shape factor that accounts for contact angle effects,
+- \( \Theta(At) \) represents transient nucleation kinetics,
+- \( a = \frac{n F D^{1/2} c}{\pi^{1/2}} \) is the prefactor controlling mass transport.
+
+### **Key Features**
+- **Incorporates Diffusion Effects (Evans’ Contribution)**  
+- **Accounts for Surface Coverage Evolution (Avrami–Kolmogorov)**  
+- **Applies to Electrochemical Deposition (e.g., Ag, Li, Mg deposition)**  
+
+### **Comparison with Individual Theories**
+| Theory | Description | Surface Coverage | Diffusion Effects |
+|--------|------------|------------------|-------------------|
+| **Kolmogorov** | Random nucleation model | No explicit diffusion | No |
+| **Avrami** | Nucleation + Growth | Includes surface coverage | No |
+| **Evans** | Diffusion-limited deposition | No nucleation model | Yes |
+| **AEK Theorem** | Combines all three for electrocrystallization | Yes | Yes |
+
+For further details, refer to the full documentation and relevant literature.
