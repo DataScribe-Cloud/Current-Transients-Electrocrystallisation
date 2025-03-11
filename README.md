@@ -54,5 +54,4 @@ $$
 I(t) = \frac{a}{t^{1/2}} \left[1 - \exp(-b d(\theta) \Theta(At) t) \right]
 $$
 
-where:
-- $a = \frac{n F D^{1/2} c}{\pi^{1/2}}$ is a prefactor influenced by the charge transfer rate and ion diffusion properties.
+where $a = \frac{n F D^{1/2} c}{\pi^{1/2}}$ is a prefactor influenced by the charge transfer rate and ion diffusion properties.
