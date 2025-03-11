@@ -60,7 +60,7 @@ where $a = \frac{n F D^{1/2} c}{\pi^{1/2}}$ is a prefactor influenced by the cha
 
 # Avrami–Evans–Kolmogorov (AEK) Theorem in Electrocrystallization
 
-The **Avrami–Evans–Kolmogorov (AEK) theorem** extends classical nucleation and growth models to **electrocrystallization**, incorporating **diffusion limitations**.
+The **(AEK) theorem** in a nutshell:
 
 ### **Key Equations**
 #### **Surface Coverage**
