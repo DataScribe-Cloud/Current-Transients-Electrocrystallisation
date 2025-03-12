@@ -1,6 +1,10 @@
 # Theoretical Current Transients during Electrocrystallization
  Diffusion Current Transients from Spherical Cap Theory During Electrocrystallization
 
+![Alt text](current_transients_Ag.jpg)
+![Alt text](current_transients_Li.jpg)
+![Alt text](current_transients_Mg.jpg)
+
 ## Evans' Theory for Electrocrystallization
 
 Evans' theory describes the current transient behavior during metal electrodeposition, considering the influence of nucleation rate and diffusion-controlled growth. The number of nucleation sites follows an exponential activation law, while the active surface area expands with a diffusion-limited radius. The transient current follows:
