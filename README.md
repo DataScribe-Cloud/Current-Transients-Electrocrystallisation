@@ -7,10 +7,6 @@
 	<img src="current_transients_Mg.jpg" alt="Mg Current" width="30%">
 </p>
 
-![Alt text](current_transients_Ag.jpg)
-![Alt text](current_transients_Li.jpg)
-![Alt text](current_transients_Mg.jpg)
-
 ## Evans' Theory for Electrocrystallization
 
 Evans' theory describes the current transient behavior during metal electrodeposition, considering the influence of nucleation rate and diffusion-controlled growth. The number of nucleation sites follows an exponential activation law, while the active surface area expands with a diffusion-limited radius. The transient current follows:
@@ -65,6 +61,10 @@ I(t) = \frac{a}{t^{1/2}} \left[1 - \exp(-b d(\theta) \Theta(At) t) \right]
 $$
 
 where $a = \frac{n F D^{1/2} c}{\pi^{1/2}}$ is a prefactor influenced by the charge transfer rate and ion diffusion properties.
+
+<p align="center">
+	<img src="Mg_nucleation_RateEffect.jpg" alt="Mg Current transients under diffrenet nucleation regimes" width="60%">
+</p>
 
 ###
 
