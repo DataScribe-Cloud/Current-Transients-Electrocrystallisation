@@ -1,6 +1,12 @@
 # Theoretical Current Transients during Electrocrystallization
  Diffusion Current Transients from Spherical Cap Theory During Electrocrystallization
 
+<p align="center">
+	<img src="current_transients_Ag.jpg" alt="Ag Current" width="30%">
+	<img src="current_transients_Li.jpg" alt="Li Current" width="30%">
+	<img src="current_transients_Mg.jpg" alt="Mg Current" width="30%">
+</p>
+
 ![Alt text](current_transients_Ag.jpg)
 ![Alt text](current_transients_Li.jpg)
 ![Alt text](current_transients_Mg.jpg)
