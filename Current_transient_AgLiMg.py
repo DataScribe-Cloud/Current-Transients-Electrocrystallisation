@@ -19,7 +19,7 @@ import matplotlib.pyplot as plt
 ELEMENTS = {
     "Ag": {
         "F": 96485,  # Faraday constant (C/mol)
-        "D": 1.64e-5,# Diffusion coefficient (cm^2/s)
+        "D": 1e-5,# Diffusion coefficient (cm^2/s)
         "c": 5e-6,   # Concentration (mol/cm^3)
         "A": 4,      # Nucleation rate constant (1/s)
         "N0": 5e6,   # Nucleation site density (cm^-2) - 10⁶ to 10⁹ nuclei per cm²
@@ -50,7 +50,7 @@ ELEMENTS = {
 }
 
 # Define time range (avoid singularity at t=0)
-t_values = np.linspace(1e-6, 10, 200)
+t_values = np.linspace(1e-6, 10, 400)
 
 # Define contact angles (in degrees, converted to radians)
 theta_degrees = [11.25, 22.5, 90, 157.5]
@@ -104,9 +104,10 @@ for element in elements_to_plot:
         current = [compute_current_eq15(element, theta_rad, t) for t in t_values]
         plt.plot(t_values, np.array(current) * 1e3, label=f"Theta = {theta}°")
 
-    plt.xlabel("Time (s)")
-    plt.ylabel(r"Current ($10^3$ A/cm²)")
-    plt.title(f"Deposition Current for {element} as a Function of Time")
-    plt.legend()
-    plt.grid(True)
+    plt.xlabel("Time (s)", fontsize=14)
+    plt.ylabel(r"Current ($10^3$ A/cm²)", fontsize=14)
+    plt.title(f"Deposition Current for {element} as a Function of Time", fontsize=13)
+    plt.tick_params(axis='both', which='major', labelsize=14)  # Alternative method
+    plt.legend(fontsize=14)
+    plt.grid(False)
     plt.show()
