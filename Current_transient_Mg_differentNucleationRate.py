@@ -149,9 +149,9 @@ plt.annotate("instantanous nucleation", xy=(t_values[50], current_mg1[50]),
 
 plt.xlabel("Time (s)", fontsize=14)
 plt.ylabel(r"Current ($10^3$ A/cm²)", fontsize=14)
-plt.title(f"Deposition Current for Mg as a Function of Time", fontsize=13)
+plt.title(r"Deposition Current for Mg as a Function of Time", fontsize=13)
 plt.tick_params(axis='both', which='major', labelsize=14)
 plt.legend(fontsize=12)
 plt.grid(False)
-
+plt.savefig('Mg_nucleation_RateEffect.jpg', dpi=300)
 plt.show()

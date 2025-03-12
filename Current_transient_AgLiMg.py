@@ -110,4 +110,5 @@ for element in elements_to_plot:
     plt.tick_params(axis='both', which='major', labelsize=14)  # Alternative method
     plt.legend(fontsize=14)
     plt.grid(False)
+    plt.savefig(f'current_transients_{element}.jpg', dpi=300)
     plt.show()
