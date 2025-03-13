@@ -102,7 +102,7 @@ for element in elements_to_plot:
     plt.figure(figsize=(7, 5))
     for theta, theta_rad in zip(theta_degrees, theta_radians):
         current = [compute_current_eq15(element, theta_rad, t) for t in t_values]
-        plt.plot(t_values, np.array(current) * 1e3, label=f"Theta = {theta}°")
+        plt.plot(t_values, np.array(current) * 1e3, label=f"$Theta$ = {theta}°")
 
     plt.xlabel("Time (s)", fontsize=14)
     plt.ylabel(r"Current ($10^3$ A/cm²)", fontsize=14)
